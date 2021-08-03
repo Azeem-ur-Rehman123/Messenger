@@ -1,0 +1,8 @@
+.chat-users {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.chat-users > p {
+  margin-left: 10px;
+}

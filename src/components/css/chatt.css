@@ -1,0 +1,51 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.chatt-header {
+  padding: 13px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(240, 239, 239);
+
+  border-bottom: 1px solid rgb(205, 207, 205);
+}
+.chatt-header-Info {
+  display: flex;
+  align-items: center;
+
+  flex-direction: row;
+  flex: 1;
+  padding-left: 20px;
+}
+.chatt-header-Info > p {
+  margin-left: 10px;
+}
+.chat-body {
+  flex: 1;
+  background-image: url('https://img.wallpapersafari.com/desktop/728/410/1/80/8DYndB.png');
+  background-repeat: repeat;
+  background-position: center;
+  overflow: scroll;
+
+  padding: 30px;
+}
+.chat-message {
+  position: relative;
+  background-color: white;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+.chat-time {
+  font-size: xx-small;
+  margin-left: 10px;
+}
+.chat-reciver {
+  margin-left: auto;
+  background-color: rgb(91, 167, 91);
+  color: white;
+}
